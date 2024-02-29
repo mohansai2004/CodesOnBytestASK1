@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task1.css">
+    <link href="https://www.fontspace.com/darlington-font-f65957" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section id="main-container">
+          <div id="paragraph-box" onclick="focus_now()"></div>
+          <input type="text" id="input-field" oninput='check()'>
+          <div id="input-box">
+          </div>
+        </section>
+        <button id="start-bttn" onclick="again()">Start</button>
+        <section id="stats-container">
+          <div id="accuracy">Accuracy 
+            <div id="acc_con"></Div>
+             </div>
+            <div id="time">Time<span id="small-sec">(sec)</span>
+            <div id="time_con"></div>
+          </div>
+          <div id="wpm">WPM
+            <div id="wpm_con"></div>
+          </div>
+        </section>
+      </main>
+    
+      <script src="task1.js"></script>
+</body>
+</html>
